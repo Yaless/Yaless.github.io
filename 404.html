@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.62">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <link rel="icon" href="/favicon.ico"><title></title><meta name="description" content="">
+    <link rel="preload" href="/assets/style-b93cfd37.css" as="style"><link rel="stylesheet" href="/assets/style-b93cfd37.css">
+    <link rel="modulepreload" href="/assets/app-6fa2f89b.js"><link rel="modulepreload" href="/assets/404.html-60b35caa.js"><link rel="modulepreload" href="/assets/404.html-b036aede.js"><link rel="prefetch" href="/assets/index.html-ca112df0.js" as="script"><link rel="prefetch" href="/assets/index.html-c63a98fb.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>网页走丢了</blockquote><a href="/" class="">返回首页</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/assets/app-6fa2f89b.js" defer></script>
+  </body>
+</html>
